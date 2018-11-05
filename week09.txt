@@ -1,0 +1,19 @@
+TODO:
+	Implement task related interfaces
+	task_init_measure
+	task_start_measure
+	task_stop_measure
+
+	Turn functions into macros
+
+	Port More Benchmarks -> Mainly Kastor
+
+REPORT
+	Interfaces implemented,
+	Updated dump_csv to support task lifetimes
+	Begun analizing karstors benchmarks to port it
+	A strange behavior in clock_gettime generated a big delay in the progress...
+	
+TO THE NEXT WEEK
+	Update bench to generate statistics
+	Port more benchmarks
