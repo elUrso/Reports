@@ -1,9 +1,0 @@
-TODO:
-	send bench link to lucas
-	fix time, later think about rdtsc
-	Port Kastor -> sparse, strassen, jacobi
-	Port Bots ->
-	Generate new collumns -> *stats, hardware, misc, number executions, *desvio padrao
-	
-REPORT:
-	
