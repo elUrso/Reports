@@ -7,3 +7,25 @@ TODO:
 	
 REPORT:
 	
+	Due to a problem with my phisical keyboard, I lost a lot of time trying to fix it.
+	Looks like karma is not at my side this time.
+
+	Alter task timing to clock instead of ms.
+	Timing of tasks utilizes RDTSC instruction.
+
+```{c}
+unsigned long long clk_timing(void) {
+	unsigned long lo, hi;
+	unsigned long long l, h;
+	asm("rdtsc" : "=a"(lo), "=d"(hi)); 
+	h = hi;
+	l = lo | (h << 32);
+	return l;
+}
+```
+
+	Testing performance under MinGW-w64 Windows (c) and MVSC Windows (rust) environment.
+
+	>> Compare omp with measure vs omp without
+	bench api bug fixed!
+	
