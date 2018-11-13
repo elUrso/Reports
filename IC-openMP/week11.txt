@@ -1,0 +1,19 @@
+TODO
+    DONE Create ubuntu virtual machine for the mac
+    Check API overhead
+    DONE Generate Statistics from task mesure-> mean, std deviation
+    DONE Generate Hardware Information
+    Check time precision
+    Port Karstors
+    Port Bots
+    Port Startbench
+
+REPORT
+    Due to a hardware problem my laptop in under maintance, during this time I will utilize my iMAc Early 2011.
+    Virtual machine created and working environment for MacOS also working.
+    For MacOS, utilized gcc-8 from brew.
+
+    Fixed a typo in the bench.c code that generated invalid JSON.
+
+    Generated Statistics using crate Statistical -> mean, median, std_variance
+    Genrated Hardware informantion using neofetch due to its hablity to ommit information
