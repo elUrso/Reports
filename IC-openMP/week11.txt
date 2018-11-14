@@ -1,9 +1,9 @@
 TODO
     DONE Create ubuntu virtual machine for the mac
-    Check API overhead
+    DONE Check API overhead
     DONE Generate Statistics from task mesure-> mean, std deviation
     DONE Generate Hardware Information
-    Check time precision
+    DONE Check time precision
     Port Karstors
     Port Bots
     Port Startbench
@@ -17,3 +17,12 @@ REPORT
 
     Generated Statistics using crate Statistical -> mean, median, std_variance
     Genrated Hardware informantion using neofetch due to its hablity to ommit information
+
+    Time unit is in seconds: t.tv_sec  + t.tv_nsec *1e-9;
+    Precision up to n_sec;
+
+    API overhead is little for number impact, produce a more detailed result later (Next Report maybe)
+
+    Working on strassen:
+        Strassen has someproblem with MacOS toolchain, wich make it fails with -c
+        Atual progress: marking thread inside strassen-task
