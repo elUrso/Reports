@@ -1,0 +1,20 @@
+TODO
+    Port Karstors
+    Port Bots
+    Port Startbench
+
+REPORT
+    Port Karstors:
+        Need to analise how to access memory because accessing pointer generates seg fault -> ask Lucas.
+    
+    Major code refactor done, just need to find a solution for the segfault problem to add task measures
+    
+    Analyse race conditions or dereferenciations
+
+    ----
+
+    Studing the reason for the segfault in Kastors when mesuring a task size in ticks.
+
+    Initiated BOTS porting, for some reason uts has segfault bug, so it will be left of for now.
+    ksnapsack also will be left out for not offering OPENMP task implementations, later it may be converted.
+    
