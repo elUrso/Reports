@@ -23,3 +23,7 @@ int a, c
         but it utilizes omp for...
     
     fixed bench export bug when no task was measured
+    fixed bench api bug when measuring tasks -> openMP-Ports/bons/fft : later push changes to the rest
+        omp_get_num_threads = 1 when not in a omp region...
+    
+    consider how to improve task_measure inside recursive calls
