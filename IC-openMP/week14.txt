@@ -1,0 +1,25 @@
+TODO
+    Port Bots
+    * Memory Barrier
+    * Study fences instructions
+    ** Measure task_measure overhead (less )
+
+REPORT
+
+consider memory barriers to block reordering
+
+int a, c
+#pragma omp task depend(...) ...
+{
+    a = clock;
+    barrier
+    task...
+    barrier
+    c = clock;
+    barrier
+}
+
+    ported BOTS-alignment
+        but it utilizes omp for...
+    
+    fixed bench export bug when no task was measured
