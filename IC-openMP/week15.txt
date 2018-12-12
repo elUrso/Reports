@@ -1,5 +1,10 @@
 TODO
     continue porting BOTS (Goal Finish It)
 REPORT
-    ported bots:flooplan
+    ported bots:floorplan
     ported bots:health
+    ported bots:nqueens
+    ported bots:strassen
+    ported bots:sort
+    ported bots:sparselu
+    
