@@ -1,0 +1,5 @@
+TODO
+    continue porting BOTS (Goal Finish It)
+REPORT
+    ported bots:flooplan
+    ported bots:health
