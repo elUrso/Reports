@@ -1,0 +1,28 @@
+* The data that we are going to present should help the audience answer what questions?
+	* Does RV-Picos deliver better performance than the best SW-TS system and the best ACC-TS system?
+		* [spec]: Use the highest number of cores
+		* [spec]: Adjust task granularity to maximize performance
+	* Is RV-Picos more energy-efficient than the best SW-TS system and the best ACC-TS system?
+		* [spec]: Use the highest number of cores
+		* [spec]: Adjust task granularity to maximize performance
+		* [spec]: Evaluate for each of the benchmarks
+	* What is the area impact of having RV-Picos depending on the number of cores to be served?
+		* [spec]: Vary the number of cores from two to the maximum
+		* [spec]: Show how many RV-Picos instances would fit in a small and in a medium-sized FPGAs
+	* How does the advantage of RV-Picos over SW-TS and ACC-TS depend on task granularity?
+		* [spec]: Use the highest number of cores
+		* [spec]: Evaluate for each of the benchmarks
+	* Is RV-Picos faster than other software-based parallel programming frameworks?
+		* [spec]: Use the highest number of cores
+		* [spec]: Adjust task granularity to maximize performance
+		* [spec]: Evaluate for at least 6 benchmarks
+	* How does RV-Picos performance compare with that of SW-TS and ACC-TS systems while varying the number of cores from 2 to the maximum possible?
+		* [spec]: Use the highest number of cores	
+		* [spec]: For each system, adjust task granularity to maximize performance
+	* What is the maximum number of cores that RV-Picos can handle?
+		* [spec]: Evaluate for each of the benchmarks
+		* [spec]: Derive from average MTT
+	* How much extra energy can RV-Picos (Picos + Picos Manager + Picos Delegate) take, not considering the cores?
+		* [spec]: Look for a simulation-based upper-bound
+* What competing software-based parallel programming frameworks should we compare our system with?
+	* Cilk, TBB.
