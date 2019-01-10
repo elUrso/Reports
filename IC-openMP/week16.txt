@@ -1,0 +1,7 @@
+TODO:
+	Request SPEC ACCEL Education License
+	Check Benchmarks that were already ported and fill the drive table
+	Port StarBench
+	Port PARSEC
+REPORT:
+	
