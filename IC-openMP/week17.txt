@@ -1,0 +1,18 @@
+TODO:
+    Check Kastors Port
+	Port Parsecss
+    Read https://pm.bsc.es/projects/bar
+	Check WSL as a possible test enviroment
+
+REPORT:
+    Kastors seems fine.
+    Site read and WSL checked, develompment shall not present any problem.
+
+    Porting Parsec:
+
+    Blackscholes:
+        has seq, pthreads, tbb, openmp, openmp task dep and ompss versions
+        porting seq, pthreads, openmp and openmp task dep
+        low memory footprint ~150mb
+
+        drawback that it utilizes taskwait

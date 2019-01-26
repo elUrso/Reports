@@ -4,4 +4,6 @@ TODO:
 	Port StarBench
 	Port PARSEC
 REPORT:
+	Got the SPEC License
+	Filled  the table
 	
