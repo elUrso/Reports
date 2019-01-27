@@ -16,3 +16,7 @@ REPORT:
         low memory footprint ~150mb
 
         drawback that it utilizes taskwait
+    
+    canneal:
+        ported seq, pthreads and task dep verisions.
+        Require taskdep for syn, a solution may be ticket lock.
