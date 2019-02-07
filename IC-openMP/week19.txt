@@ -1,0 +1,11 @@
+TODO:
+	Port the maxium number of benchmarks to the system
+REPORT:
+	Renamed OpenMP-Ports to taskdep-suit
+	Added process_append_file to the api
+	Ported Kastors {jacobi, sparselu, strassen}
+	BOTS port delayed due to no use of task dependency
+	
+	Ported Parsec:
+		backscholes: taskwait, spinlock with atomic will resolve the problem
+		dedup: taskwait, may require a 'soft taskwait', no taskmeasure for the moment. Requires env var BENCH_SILENT 

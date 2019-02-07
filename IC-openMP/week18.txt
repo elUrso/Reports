@@ -1,0 +1,8 @@
+TODO:
+	Move from OpenMP to OmpSs
+	Prepare environment and start porting
+REPORT:
+	Studied OmpSs.
+	Compiling mercurium and nanos++ was not straightforward as thought.
+	Created a docker image that contains the nanos++ runtime, mercurium, bench, gcc and everyone else.
+	Added a new column to the output of the system, it has a sha256 of the output.
